@@ -1,66 +1,66 @@
 * {
-       margin: 0px;
-       padding: 0px;
-       box-sizing: border-box;
-     }
-     button {
-       margin-left: 50px;
-       margin-top: 50px;
-       border: none;
-       font-size: 2em;
-       background-color: inherit;
-       cursor: pointer;
-     }
-     div.sidebar {
-       height: 100vh;
-       width: 0px;
-       background-color: darkslategrey;
-       position: fixed;
-       right: 0px;
-       top: 0px;
-       color: grey;
-       font-size: 2em;
-       text-align: center;
-       transition: all 1s ease;
-     }
-     .side {
-       width: 200px !important;
-     }
-     span {
-       position: relative;
-       top: 92px;
-       left: 38px;
-       width: 2%;
-       display: block;
-       border: 2px solid black;
-       margin: 7px 10px;
-       border-radius: 30px;
-       cursor: pointer;
-       transition: all 1s;
-     }
-     .first {
-       transform: rotate(45deg) translate(5px, 5px);
-     }
-     .second {
-       transform: rotate(-45deg) translate(2px, -2px);
-     }
-     .third {
-       transform: rotate(-45deg) translate(9px, -9px);
-     }
-     .hamb {
-       display: contents;
-     }
-     .hamb::after {
-       content: "Open";
-       position: relative;
-       left: 90px;
-       top: 56px;
-       font-size: 1.5em;
-     }
-     .burger::after {
-       content: "Close";
-       position: relative;
-       left: 90px;
-       top: 56px;
-       font-size: 1.5em;
-     }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+button {
+  margin-left: 50px;
+  margin-top: 50px;
+  border: none;
+  font-size: 2em;
+  background-color: inherit;
+  cursor: pointer;
+}
+div.sidebar {
+  height: 100vh;
+  width: 0px;
+  background-color: darkslategrey;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  color: grey;
+  font-size: 2em;
+  text-align: center;
+  transition: all 1s ease;
+}
+.side {
+  width: 200px !important;
+}
+span {
+  position: relative;
+  top: 92px;
+  left: 38px;
+  width: 2%;
+  display: block;
+  border: 2px solid black;
+  margin: 7px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.first {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.second {
+  transform: rotate(-45deg) translate(2px, -2px);
+}
+.third {
+  transform: rotate(-45deg) translate(9px, -9px);
+}
+.hamb {
+  display: contents;
+}
+.hamb::after {
+  content: "Open";
+  position: relative;
+  left: 90px;
+  top: 56px;
+  font-size: 1.5em;
+}
+.burger::after {
+  content: "Close";
+  position: relative;
+  left: 90px;
+  top: 56px;
+  font-size: 1.5em;
+}
